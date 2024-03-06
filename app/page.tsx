@@ -1,7 +1,9 @@
-import Image from "next/image";
+import MediaContainer from "@/components/MediaContainer";
 
-export default function Home() {
+export default async function Home() {
   return (
-   <div>Home</div>
+    <div>
+      <MediaContainer />
+    </div>
   );
 }
